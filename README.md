@@ -17,35 +17,6 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
   - **GET Routes**: Retrieve categories, products, and tags, displaying data in formatted JSON.
   - **POST, PUT, DELETE Routes**: Create, update, and delete data in the database successfully.
 
-## Installation
-
-1. **Clone the Repository**:
-   ```sh
-   git clone <starter-code-repository-url>
-   cd <repository-name>
-   ```
-
-2. **Install Dependencies**:
-   ```sh
-   npm install
-   ```
-
-3. **Configure Environment Variables**:
-   Create a `.env` file in the root directory and add your PostgreSQL database credentials:
-   ```
-   DB_NAME=your_database_name
-   DB_USER=your_database_username
-   DB_PASSWORD=your_database_password
-   DB_HOST=your_database_host
-   DB_PORT=your_database_port
-   ```
-
-4. **Set Up the Database**:
-   ```sh
-   npx sequelize-cli db:create
-   npx sequelize-cli db:migrate
-   npx sequelize-cli db:seed:all
-   ```
 
 ## Usage
 
@@ -66,12 +37,13 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
 
 ## Walkthrough Video
 
-For a detailed walkthrough of the project's functionality, watch the [walkthrough video](<link-to-video>).
+For a detailed walkthrough of the project's functionality, watch the [walkthrough video](<https://drive.google.com/file/d/1oE3xIB8I8fUrFFZuVAN2IVBp0jLibmB6/view>).
+
+## GitHub Repository
+
+https://github.com/RinjeeG/E-commerce-Backend.git
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-This README provides a comprehensive overview of the project, including installation instructions, usage, and acceptance criteria. Ensure you replace placeholders like `<starter-code-repository-url>`, `<repository-name>`, and `<link-to-video>` with the actual values for your project.
